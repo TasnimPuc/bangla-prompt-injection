@@ -1,0 +1,16 @@
+*.pth
+*.pt
+*.safetensors
+*.bin
+*.parquet
+bpi/
+checkpoint-*/
+model/
+__pycache__/
+.ipynb_checkpoints/
+.pytest_cache/
+.env
+notebooks/*.ipynb
+!notebooks/kaggle_run.ipynb
+!notebooks/kaggle_run_executed.ipynb
+results_for_github.zip
