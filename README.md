@@ -1,5 +1,7 @@
 # Bangla / Banglish Prompt-Injection Detector 🛡️
 
+![repo health](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/TasnimPuc/bd-rooftop-solar-calculator/main/.github/health/badge.json)
+
 A small classifier that sits in front of an LLM chatbot and blocks **prompt-injection attacks written in
 Bangla, Banglish (romanised Bangla) and code-mixed Bangla-English**. These are the languages Bangladeshi
 users actually type in, and English-only detectors miss them.
