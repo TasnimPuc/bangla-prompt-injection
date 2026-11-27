@@ -8,5 +8,5 @@ jobs:
       - uses: actions/setup-python@v5
         with: {python-version: "3.11"}
       - run: pip install torch --index-url https://download.pytorch.org/whl/cpu
-      - run: pip install "transformers>=4.46" "accelerate>=1.1" datasets tokenizers scikit-learn pandas pyarrow matplotlib shap py7zr requests pytest ipython
+      - run: pip install "transformers>=4.46" "accelerate>=1.1" datasets tokenizers scikit-learn pandas pyarrow matplotlib shap py7zr requests pytest ipython fastapi httpx
       - run: python -m pytest -q   # tiny offline model: transliteration, splits, training pipeline, FastAPI guard
