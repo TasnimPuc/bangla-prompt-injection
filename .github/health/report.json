@@ -1,0 +1,131 @@
+{
+  "metrics": {
+    "repo": "TasnimPuc/bangla-prompt-injection",
+    "url": "https://github.com/TasnimPuc/bangla-prompt-injection",
+    "generated": "2026-11-27T15:41Z",
+    "window_days": 90,
+    "description": "Detects prompt-injection attacks in Bangla, Banglish & code-mixed text \u2014 mDeBERTa-v3 trained on translated/transliterated deepset/prompt-injections + native red-team prompts, with a FastAPI guard middleware and Gradio demo.",
+    "topics": [
+      "bangla",
+      "banglish",
+      "code-mixing",
+      "fastapi",
+      "llm-security",
+      "mdeberta",
+      "nlp",
+      "prompt-injection"
+    ],
+    "archived": false,
+    "fork": false,
+    "language": "Jupyter Notebook",
+    "license": "MIT",
+    "stars": 0,
+    "forks": 0,
+    "created": "2026-11-26T05:12:55Z",
+    "pushed": "2026-11-27T15:41:11Z",
+    "days_since_push": 0.0,
+    "commits_window": 3,
+    "commits_year": 3,
+    "commits_capped": false,
+    "authors_window": 1,
+    "authors_year": 1,
+    "bus_factor": 1,
+    "top_authors": [
+      [
+        "tasnimpuc",
+        3
+      ]
+    ],
+    "community": {
+      "readme": true,
+      "license": true,
+      "contributing": false,
+      "code_of_conduct": false,
+      "issue_template": false,
+      "pull_request_template": false,
+      "security_policy": false
+    },
+    "community_health_pct": 42,
+    "dependency_bot": null,
+    "open_issues": 0,
+    "open_prs": 0,
+    "stale_issues": 0,
+    "new_issues": 0,
+    "closed_issues": 0,
+    "merged_prs": 0,
+    "median_issue_close_days": null,
+    "median_pr_merge_days": null,
+    "workflows": 2,
+    "ci_runs": 2,
+    "ci_success_rate": 0.0,
+    "releases": 0,
+    "last_release": null,
+    "days_since_release": null,
+    "median_release_gap_days": null,
+    "api_calls": 21
+  },
+  "health": {
+    "score": 46,
+    "grade": "D",
+    "parts": {
+      "activity": {
+        "score": 17.5,
+        "max": 25
+      },
+      "community": {
+        "score": 10.0,
+        "max": 20
+      },
+      "responsiveness": {
+        "score": 10.0,
+        "max": 20
+      },
+      "ci": {
+        "score": 6.0,
+        "max": 15
+      },
+      "releases": {
+        "score": 0.0,
+        "max": 10
+      },
+      "bus_factor": {
+        "score": 2.0,
+        "max": 10
+      }
+    },
+    "findings": [
+      {
+        "severity": "medium",
+        "text": "CI success rate on default branch only 0%."
+      },
+      {
+        "severity": "low",
+        "text": "Missing contributing."
+      },
+      {
+        "severity": "low",
+        "text": "Missing code of conduct."
+      },
+      {
+        "severity": "low",
+        "text": "Missing issue template."
+      },
+      {
+        "severity": "low",
+        "text": "Missing pull request template."
+      },
+      {
+        "severity": "low",
+        "text": "Missing security policy."
+      },
+      {
+        "severity": "low",
+        "text": "No Dependabot/Renovate config for dependency updates."
+      },
+      {
+        "severity": "low",
+        "text": "No GitHub releases - tag versions so users can pin."
+      }
+    ]
+  }
+}
